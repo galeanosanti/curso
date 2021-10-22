@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina</title>
+</head>
+<body>
+    <h1>Primer title</h1>
+    <h2>Segundo title</h2>
+    <h3>Tercer title</h3>
+    <h4>Cuarto title</h4>
+    <h5>Quinto title</h5>
+    <h6>Sexto title</h6>
+<form action="/prueba" method="POST">
+    <div>
+        <label>Nombre</label>
+        <input type="text" name="nombre"/>
+    </div>
+    <div>
+        <label>Apellido</label>
+        <input type="text" name="apellido"/>
+    </div>
+    <div>
+        <label>Edad</label>
+        <input type="number" name="edad"/>
+    </div>
+    <div>
+        <label>Nacionalidad</label>
+        <select name="pais">
+            <option value="1">Argentina</option>
+            <option value="2">Chile</option>
+            <option value="3">Paraguay</option>
+        </select>
+    </div>
+    <div>
+        <label>Mayor de edad</label>
+        <input type="radio" name="mayorEdad" id="option-yes"/>
+        <label for="option-yes">Si</label>
+        <input type="radio" name="mayorEdad" id="option-no"/>
+        <label for="option-no">No</label>
+    </div>
+    <div>
+        <label>Selecciona hobbies</label>
+        <input name="hobbies-programar" type="checkbox" id="checkbox-programar"/><label for="checkbox-programar">Programar</label>
+        <input name="hobbies-futbol" type="checkbox" id="checkbox-futbol"/> <label for="checkbox-futbol">Futbol</label>
+        <input name="hobbies-disenar" type="checkbox" id="checkbox-disenar"/><label for="checkbox-disenar">Diseñar</label>
+        <!-- a los hobbies se le especifica el name pq es mejor que el sv reciba por separado si la opcion es true/false-->
+    </div>
+    <div>
+        <input type="submit" />
+    </div>
+</form>
+    <input type="text">
+    <input type="password">
+    <input type="date" name="Fecha" id="">
+    <a target="_blank" href="https://courseit.io">CourseIt</a>
+    <img src="./images/icono.png" alt="">
+    <p>Parrafo</p>
+</body>
+</html>
