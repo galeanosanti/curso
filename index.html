@@ -18,7 +18,10 @@
         
         <section>
             <article>
-                <h2>Titulo</h2>
+                <div class="titulo">
+                    <h2>Titulo</h2>
+                </div>
+                
                 <p class="p-articulo">
                     Para la propiedad width (ancho) es mejor usar porcentajes para que sea escalable a distintas pantallas.
                 </p>
@@ -29,9 +32,24 @@
                     Display in-line los pone a todos en linea (uno al lado del otro). Pero no se puede modifical la altura ni el ancho. Si al 
                     no entrar en la página, hace un salto de linea. Además se ajusta según el tamaño de la ventana.
                 </p>
+                <div class="titulo">
+                    <h3>Posicionamiento</h3>
+                </div>
+                
+                <p class="p-articulo">
+                    <strong>Static</strong> es como todo viene por defecto. Cuando achicamos las cosas van cayendo, etcétera.
+                </p>
+                <p class="p-articulo">
+                    <strong>Relative</strong> conserva el espacio en el documento pero se nos habilitan propiedades nuevas: top, right, left y bottom. Se mueve pero conserva el espacio original en el documento.
+                </p>
+                <p class="p-articulo">
+                    <strong>Absoluto</strong> hace que el elemento flote por encima de los elementos padre hasta encontrar alguno que tenga el Posicionamiento relative.
+                </p>
+                <p class="p-articulo">
+                    <strong>Fixed</strong> posiciona un elemento en relación al viewport(monitor) de manera "permanente", hagas lo que hagas va a estar en la posición que establezcamos.
+                </p>
             </article>
         </section>
-
         <section class="container">
             <div class="item">Clase 1: <strong>Introducción a HTML</strong></div>
             <div class="item">Clase 2: <strong>Etiquetas</strong></div>
@@ -40,8 +58,10 @@
             <div class="item">Clase 5: <strong>HTML Semantico</strong></div>
             <p class="ver-mas"><strong>Ver más</strong></p>
         </section>
-      
+
     </main>
-    <footer>Pie de pagina</footer>
+    <footer>
+        <a class="boton" href="posicionamiento.html">Presionar para ir al ejemplo de posicionamiento.</a>
+    </footer>
 </body>
 </html>

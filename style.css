@@ -11,13 +11,25 @@ body {
     border: 2px solid black;
 }
 
-h2{
+.titulo{
     margin: 20px auto;
     width: 70%;
 }
 
-.video {
-    margin-left: 520px;  
+footer{
+    margin: auto;
+    margin-top: 15px;
+    width: 70%;
+}
+
+.boton{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    background-color: #F0E0AA;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
 }
 
 nav{
@@ -46,4 +58,22 @@ nav{
     font-style: italic;
     color: #55450F;
     cursor: pointer;
+}
+
+.cuadrados{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+.cuadrado1{
+    background-color: red;
+}
+
+.cuadrado2{
+    background-color: blue;
+}
+
+.cuadrado3{
+    background-color: green;
 }

@@ -1,0 +1,20 @@
+div{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+.cuadrado1{
+    background-color: red;
+}
+
+.cuadrado2{
+    background-color: blue;
+    position: relative;
+    top: 50px;
+    left: 200px;
+}
+
+.cuadrado3{
+    background-color: green;
+}
