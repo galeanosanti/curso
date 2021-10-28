@@ -19,22 +19,27 @@
         <section>
             <article>
                 <h2>Titulo</h2>
-                <p>
+                <p class="p-articulo">
                     Para la propiedad width (ancho) es mejor usar porcentajes para que sea escalable a distintas pantallas.
                 </p>
-                <p>
+                <p class="p-articulo">
                     Para que el "margin: auto;" funcione, tiene que haber un width previamente definido.
+                </p>
+                <p class="p-articulo">
+                    Display in-line los pone a todos en linea (uno al lado del otro). Pero no se puede modifical la altura ni el ancho. Si al 
+                    no entrar en la página, hace un salto de linea. Además se ajusta según el tamaño de la ventana.
                 </p>
             </article>
         </section>
 
-        <div class="video">
-            <section>
-             <video controls>
-                   <source src="https://video.twimg.com/ext_tw_video/1451166186197159941/pu/vid/848x480/4ZFrRWO_NKesY_GO.mp4" type="video/mp4">
-             </video>
+        <section class="container">
+            <div class="item">Clase 1: <strong>Introducción a HTML</strong></div>
+            <div class="item">Clase 2: <strong>Etiquetas</strong></div>
+            <div class="item">Clase 3: <strong>Atributos</strong></div>
+            <div class="item">Clase 4: <strong>Formularios</strong></div>
+            <div class="item">Clase 5: <strong>HTML Semantico</strong></div>
+            <p class="ver-mas"><strong>Ver más</strong></p>
         </section>
-        </div>
       
     </main>
     <footer>Pie de pagina</footer>

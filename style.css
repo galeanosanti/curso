@@ -3,7 +3,7 @@ body {
     background-color: #D8C791;
 }
 
-p {
+.p-articulo {
     width: 70%;
     background-color: yellow;
     margin: 10px auto;
@@ -23,4 +23,27 @@ h2{
 nav{
     margin: auto;
     width: 6%;
+}
+
+.container {
+    background-color: #F0E0AA;
+    margin: auto;
+    width: 70%;
+    padding: 15px;
+    border-left: 2px solid #6D5813;
+    border-radius: 5px;
+}
+
+.item {
+    margin: 10px;
+    border-bottom: 1px solid #6D5813;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.ver-mas{
+    text-align: center;
+    font-style: italic;
+    color: #55450F;
+    cursor: pointer;
 }
